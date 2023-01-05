@@ -1,0 +1,9 @@
+numpy
+pandas
+flask
+sklearn
+json
+bs4
+urllib
+pickle
+requests
