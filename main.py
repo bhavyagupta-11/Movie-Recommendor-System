@@ -8,7 +8,7 @@ import bs4 as bs
 #import urllib.request
 import pickle
 #import requests
-from urllib import request  #import 
+from urllib2 import urlopen 
 from bs4 import BeautifulSoup as soup
 
 # load the nlp model and tfidf vectorizer from disk
@@ -120,7 +120,7 @@ def recommend():
     # web scraping to get user reviews from IMDB site
     
     url='https://www.imdb.com/title/{}/reviews?ref_=tt_urv'
-    sauce=request.urlopen(url.format(imdb_id))
+    sauce=urlopen(url.format(imdb_id))
     html=sauce.read()
     sauce.close()
     data_soup=soup(html,'html.parser')
