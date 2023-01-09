@@ -4,6 +4,5 @@ flask
 scikit-learn
 bs4
 urllib3
-urllib2
 requests
 pip
