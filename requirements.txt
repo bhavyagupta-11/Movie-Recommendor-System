@@ -1,9 +1,8 @@
-numpy
-pandas
-flask
-sklearn
-json
-bs4
-urllib
-pickle
-requests
+numpy==1.24.1
+pandas==1.5.2
+flask==2.2.2
+scikit-learn==1.2.0
+bs4==0.0.1
+urllib3==1.26.13
+requests==2.28.1
+pip==22.3.1
