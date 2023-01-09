@@ -5,9 +5,9 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import json
 import bs4 as bs
-import urllib.request
+#import urllib.request
 import pickle
-import requests
+#import requests
 from urllib.request import urlopen
 from bs4 import BeautifulSoup as soup
 
