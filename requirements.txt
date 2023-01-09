@@ -4,5 +4,6 @@ flask
 scikit-learn
 bs4
 urllib3
+pickle
 requests
 pip
