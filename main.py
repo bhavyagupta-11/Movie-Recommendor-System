@@ -8,7 +8,7 @@ import bs4 as bs
 #import urllib.request
 import pickle
 #import requests
-from urllib2 import urlopen 
+from urllib.request import urlopen 
 from bs4 import BeautifulSoup as soup
 
 # load the nlp model and tfidf vectorizer from disk
